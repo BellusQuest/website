@@ -24,7 +24,7 @@ import { onMount } from "svelte";
   });
 </script>
 
-<div id="loader" class="h-screen w-screen m-auto p-12 bg-white align-middle justify-center flex flex-row items-center">
+<div id="loader" class="h-screen w-screen m-auto p-12 align-middle justify-center flex flex-row items-center">
   <img src="/bellus.min.png" class="animate__animated h-16 w-16 flex-shrink-0 animate-bounce" alt="Bellus"/>
 </div>
 <div id="container" class="flex flex-col gap-2 py-6 px-8 md:px-14 w-full m-auto max-w-[2168px]">
