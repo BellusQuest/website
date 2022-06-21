@@ -21,3 +21,4 @@ blend of roleplaying games, these features includes:
 You can simply fork this repository and install it on [Cloudflare Pages](https://pages.dev) with the following configuration:
 - Build Command: `npm run build`
 - Output Directory: `/build`
+- Environment Variables: `NODE_VERSION=16.11.0`
