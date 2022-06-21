@@ -27,7 +27,7 @@ import { onMount } from "svelte";
 <div id="loader" class="h-screen w-screen m-auto p-12 bg-white align-middle justify-center flex flex-row items-center">
   <img src="/bellus.min.png" class="animate__animated h-16 w-16 flex-shrink-0 animate-bounce" alt="Bellus"/>
 </div>
-<div id="container" class="flex flex-col gap-2 py-6 px-6 md:px-14 w-full m-auto max-w-[2168px]">
+<div id="container" class="flex flex-col gap-2 py-6 px-8 md:px-14 w-full m-auto max-w-[2168px]">
   <div id="animate__Me" class="hidden">
     <nav class="flex flex-row justify-between items-center border-b py-2 pb-4">
       <img src="/bellus.min.png" class="h-16 w-16 flex-shrink-0" alt="Bellus"/>
@@ -37,7 +37,7 @@ import { onMount } from "svelte";
       <slot />
     </main>
   </div>
-  <div class="py-4 md:py-0 fixed bottom-10 flex flex-row gap-4 items-center hidden" id="links">
+  <div class="py-4 md:py-0 absolute bottom-10 flex flex-row gap-4 items-center hidden" id="links">
     <a href="https://github.com/BellusQuest" alt="Discord Server" rel="external" target="_blank">
         <GitHub class="href"></GitHub>
     </a>
