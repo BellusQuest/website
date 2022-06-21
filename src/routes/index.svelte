@@ -10,6 +10,6 @@
         <li>and many more.</li>
     </ul>
     <p>
-        Bellus is still under active development and will be including a public alpha release soon, stay tuned.
+        For technical versions or early development previews of Bellus, you may check the official Discord server below.
     </p>
 </div>
