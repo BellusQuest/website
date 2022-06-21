@@ -37,11 +37,11 @@ import { onMount } from "svelte";
       <slot />
     </main>
   </div>
-  <div class="fixed bottom-10 flex flex-row gap-4 items-center hidden" id="links">
-    <a href="https://github.com/BellusQuest" alt="Discord Server">
+  <div class="py-4 md:py-0 fixed bottom-10 flex flex-row gap-4 items-center hidden" id="links">
+    <a href="https://github.com/BellusQuest" alt="Discord Server" rel="external" target="_blank">
         <GitHub class="href"></GitHub>
     </a>
-    <a href="https://discord.gg/4GuRCdKfSS" alt="Discord Server">
+    <a href="https://discord.gg/4GuRCdKfSS" alt="Discord Server" rel="external" target="_blank">
         <Discord class="href"></Discord>
     </a>
   </div>
