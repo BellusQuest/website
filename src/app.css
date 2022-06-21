@@ -1,0 +1,22 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vibes {
+    font-family: 'Great Vibes', cursive;
+}
+
+.monst {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@layer components {
+    .href {
+        @apply text-black w-6 h-6 flex-shrink-0 hover:opacity-50 duration-500
+    }
+}
